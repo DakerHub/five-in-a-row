@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="fir.css">
+    <title>Document</title>
+    <style>
+    .board-wp{
+        width: 100%;
+        height: 800px;
+    }
+    </style>
+</head>
+<body>
+    <div class="board-wp">
+    </div>
+    <script src="fir.js"></script>
+    <script>
+        var fir = new Fir();
+        fir.init(document.getElementsByClassName("board-wp")[0],800);
+    </script>
+</body>
+</html>
